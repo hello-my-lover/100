@@ -2,10 +2,10 @@ import React from 'react';
 import './Image.css';
 import "../routes/Fade.css";
 
-function Image({ image }) {
+function Image({ id, image }) {
     return (
-        <div className="image">
-            <img src={image} />
+        <div className="image fade-in">
+            <img src={image} alt={id}/>
         </div>
     );
 }

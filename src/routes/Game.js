@@ -8,12 +8,12 @@ class Game extends React.Component {
     state = {
         isLoading: true,
         currentId: 0,
-        list: []
+        list: [],
     };
 
     handleClick = (nextId) => {
         this.setState( {
-            currentId: nextId
+            currentId: nextId,
         })
     }
 
@@ -33,14 +33,17 @@ class Game extends React.Component {
         console.log(currentId);
 
         return (
-            <div className="fade">
+            <div className="fade-in">
                 {isLoading ? (
                     <div>
                         <span>Loading</span>
                     </div>
                 ) : (
                         <div className="container">
-                            <Image id={list[currentId].id} image={list[currentId].image} />
+                            <Image 
+                                id={list[currentId].id} 
+                                image={list[currentId].image}
+                            />
                             <Quest id={list[currentId].id}
                                 desc={list[currentId].desc}
                                 isChoice={list[currentId].isChoice}

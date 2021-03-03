@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function Quest({ id, desc, isChoice, choice, onClick, nextId }) {
     if (isChoice) {
         return (
-            <div className="quest fade">
+            <div className="quest fade-in">
                 <span>{desc}</span>
                 <button onClick={
                     () => onClick(choice[0].id)}>{choice[0].name}</button>
@@ -18,7 +18,7 @@ function Quest({ id, desc, isChoice, choice, onClick, nextId }) {
     }
     else {
         return (
-            <div className="quest fade">
+            <div className="quest fade-out">
                 <span>{desc}</span>
                 <button onClick={
                     () => onClick(nextId)

@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "desc": "야생의 승민이가 나타났다!",
+        "desc": "야생의 승민(이)가 나타났다!",
         "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbBQEoP%2FbtqZdgDa2eZ%2FKslzelDo5zkEmbmLho12P1%2Fimg.png",
         "isChoice": false,
         "choice": null,
@@ -12,27 +12,39 @@
         "desc": "승민(이)는 화가 많이 난 듯하다. 무엇을 해 주지?",
         "image": "https://pbs.twimg.com/media/DlRs0X7U4AANOMp.jpg",
         "isChoice": true,
-        "choice": [{"id": 2, "name": "▼ 안아 주기"}, {"id": 3, "name": "▼ 뽀뽀하기"}]
+        "choice": [{"id": 2, "name": "▼ 안아 주기"}, {"id": 2, "name": "▼ 뽀뽀해 주기"}]
     },
     {
         "id": 2,
         "desc": "승민(이)의 기분이 조금은 풀린 듯하다.",
-        "image": "https://pbs.twimg.com/profile_images/1077748803124420608/fxWUKP1z_400x400.jpg",
+        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb3bUmx%2FbtqY13d4fhb%2F7lcwuJk4gQnurgWY4X1UU0%2Fimg.png",
         "isChoice": false,
-        "nextId": 4
+        "nextId": 3
     },
     {
         "id": 3,
-        "desc": "승민(이)의 기분이 조금은 풀린 듯하다.",
+        "desc": "승민(이)가 할 말이 있어 보인다. 어떻게 할까?",
+        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FZzCBy%2FbtqY7u922Oy%2FZzGoxGaDJcE7uBrD9KKiGk%2Fimg.png",
+        "isChoice": true,
+        "choice": [{"id": 4, "name": "▼ 관심 주기"}, {"id": 5, "name": "▼ 무시하기"}]
+    },
+    {  
+        "id": 4,
+        "desc": "승민(이)가 기뻐한다. 무슨 말인지 들어 보자.",
         "image": "",
         "isChoice": false,
-        "nextId": 4
+        "nextId": 6
     },
     {
-        "id": 4,
-        "desc": "승민(이)가 할 말이 있어 보인다. 어떻게 할까?",
+        "id": 5,
+        "desc": "승민(이)가 관심을 받지 못해 가출했습니다.",
         "image": "",
-        "isChoice": true,
-        "choice": [{"id": 5, "name": "안아 주기"}, {"id": 6, "name": "뽀뽀하기"}]
+        "isChoice": false,
+        "nextId": 3
+    },
+    {
+        "id": 6,
+        "desc": "\"형, 있잖아.......\"",
+        "image": ""
     }
 ]

@@ -2,9 +2,9 @@
 
 .quest {
     font-family: 'Gothic A1', sans-serif;
-    width: 50vh;
+    width: 40vh;
     height: 20%;
-    border: 1.5px solid gray;
+    border: 1.5px solid black;
     display: flex;
     align-items: flex-start;
     justify-content: center;
