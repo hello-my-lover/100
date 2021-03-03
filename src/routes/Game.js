@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import axios from "axios";
+import React from "react";
 import "./Game.css";
 import "./Fade.css";
 import Image from '../components/Image'
@@ -13,7 +12,6 @@ class Game extends React.Component {
     };
 
     handleClick = (nextId) => {
-        const {currentId} = this.state;
         this.setState( {
             currentId: nextId
         })
