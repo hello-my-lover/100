@@ -4,12 +4,15 @@
     font-family: 'Gothic A1', sans-serif;
     width: 50vh;
     height: 20%;
-    border: 3px solid gray;
+    border: 1.5px solid gray;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     margin: 20px;
+    letter-spacing: -1.5px;
+    font-weight: 600;
+    background-color: #ededed;
 }
 
 span {
@@ -22,3 +25,8 @@ button {
     outline: 0;
     margin: 5px;
 }
+
+button:hover {
+    opacity: 0.6;
+}
+

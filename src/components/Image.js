@@ -1,10 +1,13 @@
 import React from 'react';
 import './Image.css';
+import "../routes/Fade.css";
 
-const Image = () => (
-    <div className="image">
-        <img src="https://t1.daumcdn.net/cfile/tistory/995830475BEBBFCF33" />
-    </div>
-);
+function Image({ image }) {
+    return (
+        <div className="image">
+            <img src={image} />
+        </div>
+    );
+}
 
 export default Image;

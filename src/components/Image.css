@@ -6,4 +6,5 @@ image {
 
 img {
     width: 50vh;
+    border: 1.5px solid black;
 }
