@@ -4,7 +4,7 @@ image {
     justify-content: center;
 }
 
-img {
+.game__image {
     width: 40vh;
     border: 1.5px solid black;
 }

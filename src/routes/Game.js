@@ -18,7 +18,12 @@ class Game extends React.Component {
     }
 
     componentDidMount() {
-        fetch('content.json')
+        fetch('100/content.json', {
+            headers : { 
+              'Content-Type': 'application/json',
+              'Accept': 'application/json'
+             }
+          })
             .then(function (result) {
                 return result.json();
             })
@@ -49,7 +54,8 @@ class Game extends React.Component {
                                 isChoice={list[currentId].isChoice}
                                 choice={list[currentId].choice}
                                 onClick={this.handleClick} 
-                                nextId={list[currentId].nextId}/>
+                                nextId={list[currentId].nextId}
+                                ending={list[currentId].ending} />
                         </div>
                     )}
             </div>
