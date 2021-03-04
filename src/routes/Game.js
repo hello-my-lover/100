@@ -18,7 +18,7 @@ class Game extends React.Component {
     }
 
     componentDidMount() {
-        fetch('100/content.json', {
+        fetch('content.json', {
             headers : { 
               'Content-Type': 'application/json',
               'Accept': 'application/json'
