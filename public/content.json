@@ -23,20 +23,20 @@
     {
         "id": 3,
         "desc": "승민(이)가 할 말이 있어 보인다. 어떻게 할까?",
-        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FZzCBy%2FbtqY7u922Oy%2FZzGoxGaDJcE7uBrD9KKiGk%2Fimg.png",
+        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcPXIfK%2FbtqZoI0EQ9t%2FkiK1KVGpMs7j3x6ViA5uc1%2Fimg.png",
         "isChoice": true,
         "choice": [{"id": 4, "name": "▼ 관심 주기"}, {"id": 5, "name": "▼ 무시하기"}]
     },
     {  
         "id": 4,
         "desc": "승민(이)가 기뻐한다. 무슨 말인지 들어 보자.",
-        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbNZXSM%2FbtqY7vICPsY%2FffEBHrH0wzMkmnTIJ19qfk%2Fimg.png",
+        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdrtFf1%2FbtqZhfeLXSr%2FKQi338OWNV3dWj8kNrG160%2Fimg.png",
         "isChoice": false,
         "nextId": 6
     },
     {
         "id": 5,
-        "desc": "승민(이)가 관심을 받지 못해 가출했습니다.",
+        "desc": "승민(이)는 관심을 받지 못해 가출했습니다.",
         "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbI4nu7%2FbtqZjv08Dvl%2Fch0eLywLlNyRcxTZK0DVb1%2Fimg.png",
         "isChoice": false,
         "ending": "다시 돌아가기",
@@ -58,60 +58,94 @@
     },
     {
         "id": 8,
-        "desc": "승민(이)가 좋아합니다.",
-        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FuM7rl%2FbtqY6d9lGNZ%2FCTNvkHkZQCrXbw0aEjWNbk%2Fimg.png",
+        "desc": "승민(이)가 좋아한다.",
+        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FwIVL5%2FbtqZqc75Tgt%2Ff8pga8tAaaH2UnigB6qRe1%2Fimg.png",
         "isChoice": false,
         "nextId": 11
     },
     {
         "id": 9,
         "desc": "\"애기.......\"",
-        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbUyJCX%2FbtqY8HP4lLT%2FvnVjLUrvZavVxt80Z5Yook%2Fimg.png",
+        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbPwO7x%2FbtqZkrelWoC%2FrdRrElHb9c3RruJlgdkQlk%2Fimg.png",
         "isChoice": false,
         "nextId": 10
     },
     {
         "id": 10,
-        "desc": "승민(이)가 진짜 애기가 되어 버렸습니다.",
-        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbUyJCX%2FbtqY8HP4lLT%2FvnVjLUrvZavVxt80Z5Yook%2Fimg.png",
+        "desc": "승민(이)는 진짜 애기가 되어 버렸다.",
+        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcQEffb%2FbtqZoH1OpQQ%2F6ao51zK2KyqV7lCZjFz6Tk%2Fimg.png",
         "isChoice": false,
         "ending": "'이건 좀.......'",
         "nextId": 12
     },
     {
         "id": 11,
-        "desc": "\"형.\"",
-        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbUyJCX%2FbtqY8HP4lLT%2FvnVjLUrvZavVxt80Z5Yook%2Fimg.png",
+        "desc": "승민(이)가 갑자기 폼을 잡는다. 무슨 말인지 들어 보자.",
+        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fsykpg%2FbtqZpz3vUNe%2Fwv6D2tbCRazrSkWYffyp61%2Fimg.png",
         "isChoice": false,
         "nextId": 13
     },
     {
         "id": 12,
-        "desc": "장난이었습니다. 승민(이)가 좋아합니다.",
-        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FuM7rl%2FbtqY6d9lGNZ%2FCTNvkHkZQCrXbw0aEjWNbk%2Fimg.png",
+        "desc": "장난입니다. 승민(이)가 행복해한다.",
+        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FwIVL5%2FbtqZqc75Tgt%2Ff8pga8tAaaH2UnigB6qRe1%2Fimg.png",
         "isChoice": false,
         "nextId": 11
     },
     {
         "id": 13,
-        "desc": "\"형이 나를 사랑해 주는 게 고마워서 선물을 준비했어.\"",
-        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbUyJCX%2FbtqY8HP4lLT%2FvnVjLUrvZavVxt80Z5Yook%2Fimg.png",
-        "isChoice": true,
-        "choice": [{"id": 14, "name": "▼ \"안 받을 건데?\""}, {"id": 15, "name": "▼ \"고마워!\""}]
+        "desc": "\"형.\"",
+        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fsykpg%2FbtqZpz3vUNe%2Fwv6D2tbCRazrSkWYffyp61%2Fimg.png",
+        "isChoice": false,
+        "nextId": 14
     },
     {
         "id": 14,
-        "desc": "\".......\"",
-        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbUyJCX%2FbtqY8HP4lLT%2FvnVjLUrvZavVxt80Z5Yook%2Fimg.png",
-        "isChoice": false,
-        "ending": "장난치지 말고 받으러 가기",
-        "nextId": 13
+        "desc": "\"형이 나를 사랑해 주는 게 고마워서 선물을 준비했어.\"",
+        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FZAhWz%2FbtqZjuWRv6i%2FCbfhNs73zsZW7kvCkXctc1%2Fimg.png",
+        "isChoice": true,
+        "choice": [{"id": 15, "name": "▼ \"안 받을 건데?\""}, {"id": 16, "name": "▼ \"역시 우리 승민이.\""}]
     },
     {
         "id": 15,
-        "desc": "어떤 선물을 고르시겠습니까?",
-        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbUyJCX%2FbtqY8HP4lLT%2FvnVjLUrvZavVxt80Z5Yook%2Fimg.png",
+        "desc": "\".......\"",
+        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBvTSO%2FbtqZkq0Utm1%2FqWwY7Aof5uakK1kpDmphnk%2Fimg.png",
+        "isChoice": false,
+        "ending": "장난치지 말고 받으러 가기",
+        "nextId": 14
+    },
+    {
+        "id": 16,
+        "desc": "\"선물은 나야.\"",
+        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbvIztQ%2FbtqZkbCClHy%2FoZ3EimZM0QpEd7kzSsSghk%2Fimg.png",
+        "isChoice": false,
+        "nextId": 17
+    },
+    {
+        "id": 17,
+        "desc": ".......",
+        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbvIztQ%2FbtqZkbCClHy%2FoZ3EimZM0QpEd7kzSsSghk%2Fimg.png",
+        "isChoice": false,
+        "nextId": 18
+    },
+    {
+        "id": 18,
+        "desc": "\"장난이야. 골라 봐.\"",
+        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FZAhWz%2FbtqZjuWRv6i%2FCbfhNs73zsZW7kvCkXctc1%2Fimg.png",
+        "isChoice": false,
+        "nextId": 19
+    },
+    {
+        "id": 19,
+        "desc": "어떤 선물을 고를까?",
+        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F06tdf%2FbtqZkpOx7mm%2Fx0dIuPd4jdB6ga6BHoRKsK%2Fimg.png",
         "isChoice": true,
-        "choice": [{"id": 16, "name": "▼ 정성 담긴 편지"}, {"id": 17, "name": "▼ -"}]
+        "choice": [{"id": 20, "name": "▼ 정성 담긴 편지"}, {"id": 20, "name": "▼ 선물 박스"}]
+    },
+    {
+        "id": 20,
+        "isEnding": true,
+        "image": ""
     }
+
 ]

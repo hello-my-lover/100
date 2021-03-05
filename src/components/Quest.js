@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 function Quest({ id, desc, isChoice, choice, onClick, nextId, ending }) {
     if (isChoice && !ending) {
         return (
-            <div className="quest fade-in">
+            <div className="quest">
                 <span>{desc}</span>
                 <button onClick={
                     () => onClick(choice[0].id)}>{choice[0].name}</button>
@@ -17,7 +17,7 @@ function Quest({ id, desc, isChoice, choice, onClick, nextId, ending }) {
     }
     else if (ending) {
         return (
-            <div className="quest fade-out">
+            <div className="quest">
                 <span>{desc}</span>
                 <button onClick={
                     () => onClick(nextId)
@@ -27,7 +27,7 @@ function Quest({ id, desc, isChoice, choice, onClick, nextId, ending }) {
     }
     else {
         return (
-            <div className="quest fade-out">
+            <div className="quest">
                 <span>{desc}</span>
                 <button onClick={
                     () => onClick(nextId)
