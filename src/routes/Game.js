@@ -12,18 +12,18 @@ class Game extends React.Component {
     };
 
     handleClick = (nextId) => {
-        this.setState( {
+        this.setState({
             currentId: nextId,
         })
     }
 
     componentDidMount() {
         fetch('100/content.json', {
-            headers : { 
-              'Content-Type': 'application/json',
-              'Accept': 'application/json'
-             }
-          })
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            }
+        })
             .then(function (result) {
                 return result.json();
             })
@@ -35,29 +35,30 @@ class Game extends React.Component {
 
     render() {
         const { isLoading, currentId, list } = this.state;
-        console.log(currentId);
+
+        if (isLoading) {
+            return (
+                <div>
+                    <span>Loading</span>
+                </div>
+            );
+        }
 
         return (
-            <div className="fade-in">
-                {isLoading ? (
-                    <div>
-                        <span>Loading</span>
-                    </div>
-                ) : (
-                        <div className="container">
-                            <Image 
-                                id={list[currentId].id} 
-                                image={list[currentId].image}
-                            />
-                            <Quest id={list[currentId].id}
-                                desc={list[currentId].desc}
-                                isChoice={list[currentId].isChoice}
-                                choice={list[currentId].choice}
-                                onClick={this.handleClick} 
-                                nextId={list[currentId].nextId}
-                                ending={list[currentId].ending} />
-                        </div>
-                    )}
+            <div className="container">
+                <Image
+                    id={list[currentId].id}
+                    image={list[currentId].image}
+                    isEnded={list[currentId].isEnded}
+                />
+                <Quest id={list[currentId].id}
+                    desc={list[currentId].desc}
+                    isChoice={list[currentId].isChoice}
+                    choice={list[currentId].choice}
+                    onClick={this.handleClick}
+                    nextId={list[currentId].nextId}
+                    ending={list[currentId].ending} 
+                    isEnded={list[currentId].isEnded}/>
             </div>
         );
     }

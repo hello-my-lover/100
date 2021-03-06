@@ -2,8 +2,9 @@ import React from 'react';
 import './Quest.css';
 import "../routes/Fade.css";
 import PropTypes from "prop-types";
+import { Link } from 'react-router-dom';
 
-function Quest({ id, desc, isChoice, choice, onClick, nextId, ending }) {
+function Quest({ id, desc, isChoice, choice, onClick, nextId, ending, isEnded}) {
     if (isChoice && !ending) {
         return (
             <div className="quest">
@@ -24,6 +25,11 @@ function Quest({ id, desc, isChoice, choice, onClick, nextId, ending }) {
                 }>▼ {ending}</button>
             </div>
         );
+    }
+    else if (isEnded) {
+        return (
+            <div></div>
+        )
     }
     else {
         return (

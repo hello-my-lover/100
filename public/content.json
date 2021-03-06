@@ -45,14 +45,14 @@
     {
         "id": 6,
         "desc": "\"형, 있잖아.......\"",
-        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbUyJCX%2FbtqY8HP4lLT%2FvnVjLUrvZavVxt80Z5Yook%2Fimg.png",
+        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FoW4Qw%2FbtqZrgpk8ys%2FDAnWkXk7ExKq48cpqHDiZk%2Fimg.png",
         "isChoice": false,
         "nextId": 7
     },
     {
         "id": 7,
         "desc": "\"형한테 나는 뭐야?\"",
-        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbUyJCX%2FbtqY8HP4lLT%2FvnVjLUrvZavVxt80Z5Yook%2Fimg.png",
+        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FoW4Qw%2FbtqZrgpk8ys%2FDAnWkXk7ExKq48cpqHDiZk%2Fimg.png",
         "isChoice": true,
         "choice": [{"id": 9, "name": "▼ \"우리 애기?\""}, {"id": 8, "name": "▼ \"사랑하는 사람이지.\""}]
     },
@@ -138,14 +138,19 @@
     {
         "id": 19,
         "desc": "어떤 선물을 고를까?",
-        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F06tdf%2FbtqZkpOx7mm%2Fx0dIuPd4jdB6ga6BHoRKsK%2Fimg.png",
+        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FxgfDD%2FbtqZkaYwxAF%2F7XEur3FXGIKKjQH2VWDnfK%2Fimg.png",
         "isChoice": true,
-        "choice": [{"id": 20, "name": "▼ 정성 담긴 편지"}, {"id": 20, "name": "▼ 선물 박스"}]
+        "choice": [{"id": 20, "name": "▼ 정성 담긴 편지"}, {"id": 21, "name": "▼ 선물 박스"}]
     },
     {
         "id": 20,
-        "isEnding": true,
-        "image": ""
+        "isEnded": true,
+        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbzwv2C%2FbtqZsWxq4s0%2FKWfA2UelJu4yHWk4XrREl1%2Fimg.png"
+    },
+    {
+        "id": 21,
+        "isEnded": true,
+        "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbbPiUU%2FbtqZqpmx1W2%2FStEC7vo3I1ZDfuEzgb95M1%2Fimg.png"
     }
 
 ]
