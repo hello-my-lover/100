@@ -16,9 +16,9 @@ function Image({ id, image, isEnded }) {
     } else if (isEnded && id == 21) {
         return (
             <div className="image">
-                <Link className="link" to="/present">
+                <a href="http://www.naver.com">
                     <img className="ending__image fade-in" src={image} alt={id} />
-                </Link>
+                </a>
             </div>
         );
     }

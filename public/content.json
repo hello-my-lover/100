@@ -58,7 +58,7 @@
     },
     {
         "id": 8,
-        "desc": "승민(이)가 좋아한다.",
+        "desc": "승민(이)가 좋아합니다.",
         "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FwIVL5%2FbtqZqc75Tgt%2Ff8pga8tAaaH2UnigB6qRe1%2Fimg.png",
         "isChoice": false,
         "nextId": 11
@@ -72,7 +72,7 @@
     },
     {
         "id": 10,
-        "desc": "승민(이)는 진짜 애기가 되어 버렸다.",
+        "desc": "승민(이)는 진짜 애기가 되어 버렸습니다.",
         "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcQEffb%2FbtqZoH1OpQQ%2F6ao51zK2KyqV7lCZjFz6Tk%2Fimg.png",
         "isChoice": false,
         "ending": "'이건 좀.......'",
@@ -87,7 +87,7 @@
     },
     {
         "id": 12,
-        "desc": "장난입니다. 승민(이)가 행복해한다.",
+        "desc": "장난입니다. 승민(이)가 행복해합니다.",
         "image": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FwIVL5%2FbtqZqc75Tgt%2Ff8pga8tAaaH2UnigB6qRe1%2Fimg.png",
         "isChoice": false,
         "nextId": 11
