@@ -1,5 +1,6 @@
 import React from "react";
 import "./Letter.css"
+import { Link } from 'react-router-dom';
 
 class Home extends React.Component {
     render() {
@@ -22,7 +23,9 @@ class Home extends React.Component {
                 <span>
                     💜
                 </span>
-                <img className="letter__image" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F0L8As%2FbtqZlQF4Jgi%2FBWkEw1VUsen4kDH6NpV1g0%2Fimg.png" alt="ending" />
+                <Link className="link" to="/">
+                    <img className="letter__image" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F0L8As%2FbtqZlQF4Jgi%2FBWkEw1VUsen4kDH6NpV1g0%2Fimg.png" alt="ending" />
+                </Link>
                 <span>
                     💜
                 </span>
