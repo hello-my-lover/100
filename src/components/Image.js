@@ -16,7 +16,7 @@ function Image({ id, image, isEnded }) {
     } else if (isEnded && id == 21) {
         return (
             <div className="image">
-                <a href="http://www.naver.com">
+                <a href="http://kko.to/9hHQ6tIY0">
                     <img className="ending__image fade-in" src={image} alt={id} />
                 </a>
             </div>
