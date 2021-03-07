@@ -2,7 +2,6 @@ import React from 'react';
 import './Quest.css';
 import "../routes/Fade.css";
 import PropTypes from "prop-types";
-import { Link } from 'react-router-dom';
 
 function Quest({ id, desc, isChoice, choice, onClick, nextId, ending, isEnded}) {
     if (isChoice && !ending) {

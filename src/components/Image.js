@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Image({ id, image, isEnded }) {
 
-    if (isEnded && id == 20) {
+    if (isEnded && id === 20) {
         return (
             <div className="image">
                 <Link className="link" to="/letter">
@@ -13,7 +13,7 @@ function Image({ id, image, isEnded }) {
                 </Link>
             </div>
         );
-    } else if (isEnded && id == 21) {
+    } else if (isEnded && id === 21) {
         return (
             <div className="image">
                 <a href="http://kko.to/9hHQ6tIY0">
